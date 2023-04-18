@@ -1,0 +1,235 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  background-color: #F7FD04;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__icon {
+  font-size: 3rem;
+  color: #F98404;
+  font-weight: 700;
+}
+.header__title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  color: #F98404;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  min-height: calc(100vh - 6rem - 8rem);
+  background-color: #ECECEC;
+}
+.main__card {
+  position: relative;
+}
+.main__card__image {
+  position: relative;
+}
+.main__card__image :hover {
+  cursor: pointer;
+}
+.main__card__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.main__left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-right: 2rem;
+  max-width: 50%;
+}
+.main__card {
+  position: relative;
+}
+.main__card__image {
+  position: relative;
+}
+.main__card__image img {
+  display: block;
+  width: 100%;
+}
+.main__card__date {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  padding: 0.5rem;
+  background-color: #F98404;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: white;
+}
+.main__card__title {
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  padding: 0.5rem;
+  background-color: #F9B208;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: white;
+}
+.main__right {
+  max-width: 50%;
+}
+.main__right__summary {
+  padding: 2rem;
+  line-height: 1.5;
+}
+.main__rightWrapper {
+  display: flex;
+  align-items: center;
+  gap: 50%;
+}
+.main__audio {
+  margin-top: 2rem;
+}
+.main__audio audio {
+  margin-top: 1rem;
+}
+.main__audio::-webkit-media-controls-panel {
+  background-color: #F98404;
+  color: #F7FD04;
+}
+.main__audio::-webkit-media-controls-play-button {
+  color: #F7FD04;
+}
+.main__audio::-webkit-media-controls-mute-button {
+  color: #F7FD04;
+}
+.main__audio::-webkit-media-controls-timeline {
+  background-color: #F7FD04;
+}
+.main__audio::-webkit-media-controls-timeline-thumb {
+  background-color: #F98404;
+}
+.main__audio::-webkit-media-controls-time-remaining-display, .main__audio::-webkit-media-controls-current-time-display {
+  color: #F7FD04;
+}
+.main__source {
+  margin-top: 2rem;
+}
+.main__source a {
+  color: #F98404;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.main__source a:hover {
+  color: #FC5404;
+}
+
+.footer {
+  background-color: #F7FD04;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #F98404;
+  height: 8rem;
+}
+
+.footer__info {
+  margin: 0;
+}
+
+@media screen and (max-width: 1800px) {
+  .main__rightWrapper {
+    gap: 30%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .main__rightWrapper {
+    gap: 25%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .main__rightWrapper {
+    gap: 20%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .main__rightWrapper {
+    flex-direction: column;
+  }
+  .main__left {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2rem;
+  }
+  .main__rightWrapper {
+    padding-bottom: 4rem;
+  }
+  .main__card__date {
+    display: none;
+  }
+  .main__card__title {
+    display: none;
+  }
+  .main__left {
+    max-width: 100%;
+    margin-right: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main__card {
+    margin-bottom: 2rem;
+  }
+  .main__right {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

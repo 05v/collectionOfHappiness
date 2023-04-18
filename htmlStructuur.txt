@@ -1,0 +1,80 @@
+    <header class="header">
+        <div class="header__logo">
+            <i class="header__icon fa-solid fa-face-smile"></i>
+            <h1 class="header__title">Collection of Happiness</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__left">
+            <!-- Episode 1 -->
+            <div class="main__card">
+                <div class="main__card__image">
+                    <img src="https://placehold.co/250x250" alt="Episode 1">
+                    <div class="main__card__date">Date 1</div>
+                    <div class="main__card__title">Title 1</div>
+                </div>
+            </div>
+
+            <!-- Episode 2 -->
+            <div class="main__card">
+                <div class="main__card__image">
+                    <img src="https://placehold.co/250x250" alt="Episode 2">
+                    <div class="main__card__date">Date 2</div>
+                    <div class="main__card__title">Title 2</div>
+                </div>
+            </div>
+
+            <!-- Episode 3 -->
+            <div class="main__card">
+                <div class="main__card__image">
+                    <img src="https://placehold.co/250x250" alt="Episode 3">
+                    <div class="main__card__date">Date 3</div>
+                    <div class="main__card__title">Title 3</div>
+                </div>
+            </div>
+
+            <!-- Episode 4 -->
+            <div class="main__card">
+                <div class="main__card__image">
+                    <img src="https://placehold.co/250x250" alt="Episode 4">
+                    <div class="main__card__date">Date 4</div>
+                    <div class="main__card__title">Title 4</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__right">
+            <div class="main__detail">
+                <div class="main__card">
+                    <div class="main__card__image">
+                        <img src="https://placehold.co/700x200" alt="Episode 4">
+                        <div class="main__card__date">Date 4</div>
+                        <div class="main__card__title">Title 4</div>
+                    </div>
+                </div>
+                <div class="main__right__summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quae
+                    veniam
+                    doloremque quod sit illum quo dolorem nihil voluptates iure eaque ducimus ullam quis culpa
+                    molestiae, expedita deleniti natus. Sequi.</div>
+
+                <div class="main__rightWrapper">
+                    <div class="main__audio">
+                        <audio controls>
+                            <source src="audio1.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+
+                    <div class="main__source">
+                        <a href="#">Source</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__info">
+            Gemaakt door - Vlad Verheij SD2D Mediacollege
+        </div>
+    </footer>

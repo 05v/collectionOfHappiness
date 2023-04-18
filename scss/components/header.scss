@@ -1,0 +1,27 @@
+@use '../abstracts/variables';
+
+.header {
+    background-color: variables.$yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        font-size: 3rem;
+        color: variables.$dark-orange;
+        font-weight: variables.$font-weight-bold;
+    }
+
+    &__title {
+        font-size: 3rem;
+        font-weight: variables.$font-weight-medium;
+        margin-left: 2rem;
+        color: variables.$dark-orange;
+    }
+}

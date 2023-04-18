@@ -1,0 +1,18 @@
+@use '../abstracts/variables';
+
+.footer {
+    background-color: variables.$yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    font-family: variables.$font-family;
+    font-weight: variables.$font-weight-bold;
+    font-size: 1.6rem;
+    color: variables.$dark-orange;
+    height: 8rem;
+}
+
+.footer__info {
+    margin: 0;
+}

@@ -1,0 +1,6 @@
+@use 'abstracts/variables.scss';
+
+body {
+    min-height: 100vh;
+    font-family: variables.$font-family;
+}
